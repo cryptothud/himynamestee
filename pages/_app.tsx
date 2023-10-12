@@ -5,8 +5,17 @@ import type { AppProps } from 'next/app'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Socials } from '@/components/socials'
 import Head from 'next/head'
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
+import Aos from 'aos'
 
 export default function App({ Component, pageProps }: AppProps) {
+
+  useEffect(() => {
+    Aos.init({
+      once: true
+    })
+  }, [])
 
   return (
     <>
