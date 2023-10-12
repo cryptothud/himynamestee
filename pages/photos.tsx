@@ -14,11 +14,13 @@ export default function Photos() {
   ]
 
   return (
-    <Layout className="gap-8 pt-0 md:pt-24">
+    <Layout className="gap-5 pt-0 md:pt-24">
       <Image src="/images/header.png" width="1655" height="931" alt="HIMYNAMESTEE" className="w-full h-full object-cover" data-aos="fade" data-aos-duration="500" />
-      <div className="flex flex-wrap justify-between gap-[20px] md:gap-5">
+      <div className="flex flex-wrap justify-between gap-5">
         {images.map((o, index) => (
-          <Image key={index} width="500" height="619" src={o} alt="HIMYNAMESTEE" className="object-cover max-w-full w-[calc(50%-10px)] md:w-[calc(25%-15px)]" data-aos="fade" data-aos-delay={(Math.floor(Math.random() * (6 - 2 + 1)) + 2) * 100} data-aos-duration={500} />
+          <div className="max-w-full w-[calc(50%-10px)] md:w-[calc(25%-15px)]" data-aos="fade" data-aos-delay={(Math.floor(Math.random() * (6 - 2 + 1)) + 2) * 100} data-aos-duration={500} >
+            <Image key={index} width="500" height="619" src={o} alt="HIMYNAMESTEE" className="object-cover w-full h-full" />
+          </div>
         ))}
       </div>
     </Layout >
