@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 200;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 300;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 400;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 600;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 700;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 800;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 200;
+    font-style: italic;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 400;
+    font-style: italic;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-BookItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 500;
+    font-style: italic;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 600;
+    font-style: italic;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Freight Sans";
+    font-weight: 800;
+    font-style: italic;
+    src: local("Freight Sans"),
+        url("/fonts/FreightSans/FreightSans-BlackItalic.ttf") format("truetype");
+}
