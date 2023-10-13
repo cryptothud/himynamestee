@@ -37,7 +37,10 @@ export const Navbar = () => {
         <div className="h-[112px] flex items-center justify-between w-[1700px] max-w-[90vw] mx-auto relative z-[999]">
 
             {/* DESKTOP */}
-            <Image src="/images/logo.png" alt="HIMYNAMESTEE" width="1164" height="149" className=" h-5 md:h-6 w-auto cursor-pointer hover:opacity-40 duration-300 relative z-[1001]" onClick={() => router.push("/")} />
+            <Image src="/images/logo.png" alt="HIMYNAMESTEE" width="1164" height="149" className=" h-5 md:h-6 w-auto cursor-pointer hover:opacity-40 duration-300 relative z-[1001]" onClick={() => {
+                setDropdown(false)
+                router.push("/")
+            }} />
             <div className="hidden md:flex items-center gap-1">
                 {links?.map((o) => (
                     <Link
