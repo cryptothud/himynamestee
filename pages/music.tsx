@@ -23,7 +23,7 @@ export default function Film() {
         </div>
         <div className="flex flex-col gap-2">
           <h1>RnB</h1>
-          <video className="w-[860px] object-cover" src="https://res.cloudinary.com/de7ukpiqr/video/upload/v1697784469/Fake_Mad_-_Tee_z1afcb.mp4" controls />
+          <video className="w-[860px] object-cover" src="https://res.cloudinary.com/de7ukpiqr/video/upload/v1697784469/Fake_Mad_-_Tee_z1afcb.mp4" controls poster="/images/rnb.png" />
         </div>
         <a href="https://www.youtube.com/playlist?list=PLSk_5DV97tLR8hf59O0pSVCN93Aly2rJO" target="_blank">
           <button className="px-12 py-3 border border-[#00000010] hover:bg-[#00000010]">View more</button>

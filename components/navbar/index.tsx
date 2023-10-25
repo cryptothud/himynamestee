@@ -29,8 +29,8 @@ export const Navbar = () => {
             link: "/film"
         },
         {
-            name: "EXCLUSIVE CONTENT",
-            link: "https://onlyfans.com/himynamestee"
+            name: "SHOP",
+            link: "https://shophimynamestee.com/"
         },
         {
             name: "MORE",
@@ -78,18 +78,11 @@ export const Navbar = () => {
                         ANIMATION
                     </Link>
                     <Link
-                        href={"https://shophimynamestee.com/"}
-                        target={"_blank"}
-                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
-                    >
-                        STORE
-                    </Link>
-                    <Link
                         href={"https://linktr.ee/himynamesteee"}
                         target={"_blank"}
                         className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
                     >
-                        LINKTREE
+                        EXCLUSIVE CONTENT
                     </Link>
                 </div>
             </div>
@@ -135,18 +128,11 @@ export const Navbar = () => {
                                     ANIMATION
                                 </Link>
                                 <Link
-                                    href={"https://shophimynamestee.com/"}
-                                    target={"_blank"}
-                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
-                                >
-                                    STORE
-                                </Link>
-                                <Link
                                     href={"https://linktr.ee/himynamesteee"}
                                     target={"_blank"}
                                     className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
                                 >
-                                    LINKTREE
+                                    EXCLUSIVE CONTENT
                                 </Link>
                             </>
                         )
