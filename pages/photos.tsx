@@ -13,7 +13,7 @@ export default function Photos() {
         {images.map((o, index) => (
           <div key={"photo" + index} className="max-w-full w-[calc(50%-10px)] md:w-[calc(20%-20px)]" data-aos="fade" data-aos-delay={(Math.floor(Math.random() * (6 - 2 + 1)) + 2) * 100} data-aos-duration={500} >
             <Zoom zoomMargin={10}>
-              <ImageWithProxyFallback key={index} width="600" height="800" src={o} alt="HIMYNAMESTEE" className="object-cover w-full h-full" />
+              <ImageWithProxyFallback key={index} height="800" src={o} alt="HIMYNAMESTEE" className="object-cover w-full h-full" />
             </Zoom>
           </div>
         ))}
