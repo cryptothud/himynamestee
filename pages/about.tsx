@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Layout } from '@/components/layout'
+import { ImageWithProxyFallback } from '@/components/helpers'
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
         <p className="text-[16.5px] font-thin tracking-wide leading-[1.8em]">{`As a comedian and socialite in her own right, she has used her creativity to craft comedy skits on Instagram to hit her biggest milestone yet; gaining her 1 million followers in just six months!`}</p>
         <p className="text-[16.5px] font-thin tracking-wide leading-[1.8em]">{`As Himynamestee continues to pave the way for other talented women, she also strives to break through the norms of this industry and fights to succeed by staying "unapologetically herself."`}</p>
       </div> */}
-      <Image src="/images/bio.jpeg" width="1275" height="1650" className="max-w-full" alt="Bio" />
+      <ImageWithProxyFallback src="/images/bio.jpeg" width="1275" height="1650" className="max-w-full" alt="Bio" />
     </Layout >
   )
 }

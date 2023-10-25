@@ -65,3 +65,23 @@ body {
 .socials svg:hover {
   opacity: 1;
 }
+
+/* ZOOM */
+[data-rmiz-modal-overlay="visible"] {
+  backdrop-filter: blur(4px);
+  background-color: #111111a0 !important;
+}
+
+[data-rmiz-modal-img] {
+  border-radius: 20px;
+}
+
+[data-rmiz-btn-zoom],
+[data-rmiz-btn-unzoom] {
+  cursor: pointer !important;
+}
+
+[data-rmiz], [data-rmiz] div {
+  height: 100% !important;
+  width: 100% !important;
+}

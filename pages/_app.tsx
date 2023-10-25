@@ -1,4 +1,5 @@
 import { Navbar } from '@/components/navbar'
+import 'react-medium-image-zoom/dist/styles.css'
 import '@/styles/globals.css'
 import '@/styles/fonts.css'
 import type { AppProps } from 'next/app'
@@ -8,6 +9,7 @@ import Head from 'next/head'
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
 import Aos from 'aos'
+import { IKContext } from "imagekitio-react"
 
 export default function App({ Component, pageProps }: AppProps) {
 
@@ -52,16 +54,18 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="twitter:description" content={"himynamestee"} />
         <meta property="twitter:image" content={"https://i.ibb.co/9tST9cG/New-Project-12-1.png"} />
       </Head>
-      <div className="flex flex-col w-screen min-h-screen">
-        <Navbar />
-        <AnimatePresence mode="wait" initial={false}>
-          <Component {...pageProps} />
-        </AnimatePresence>
-        <div className="flex flex-col gap-5 py-32 items-center">
-          <h1 className="font-medium text-sm tracking-[0.25em]">FOLLOW HIMYNAMESTEE</h1>
-          <Socials size={50} gap={0} color={"#000000"} />
+      <IKContext urlEndpoint="https://ik.imagekit.io/2i0djxrnp/extra">
+        <div className="flex flex-col w-screen min-h-screen">
+          <Navbar />
+          <AnimatePresence mode="wait" initial={false}>
+            <Component {...pageProps} />
+          </AnimatePresence>
+          <div className="flex flex-col gap-5 py-32 items-center">
+            <h1 className="font-medium text-sm tracking-[0.25em]">FOLLOW HIMYNAMESTEE</h1>
+            <Socials size={50} gap={0} color={"#000000"} />
+          </div>
         </div>
-      </div>
+      </IKContext>
     </>
   )
 }
