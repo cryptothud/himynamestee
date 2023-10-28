@@ -15,6 +15,11 @@ export default function About() {
         <p className="text-[16.5px] font-thin tracking-wide leading-[1.8em]">{`As a comedian and socialite in her own right, she has used her creativity to craft comedy skits on Instagram to hit her biggest milestone yet; gaining her 1 million followers in just six months!`}</p>
         <p className="text-[16.5px] font-thin tracking-wide leading-[1.8em]">{`As Himynamestee continues to pave the way for other talented women, she also strives to break through the norms of this industry and fights to succeed by staying "unapologetically herself."`}</p>
       </div> */}
+      <div className="flex gap-2 justify-center my-3">
+        <a href="https://m.imdb.com/name/nm6674356/" target="_blank">
+          <ImageWithProxyFallback src="/images/imdb.png" alt="IMDb" width="611" height="193" className="w-40 max-w-[30vw] cursor-pointer hover:opacity-40 duration-300" />
+        </a>
+      </div>
       <ImageWithProxyFallback src="/images/bio.jpeg" width="1275" height="1650" className="max-w-full" alt="Bio" />
     </Layout >
   )

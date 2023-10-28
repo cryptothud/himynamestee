@@ -78,7 +78,7 @@ export const Navbar = () => {
                         ANIMATION
                     </Link>
                     <Link
-                        href={"https://linktr.ee/himynamesteee"}
+                        href={"https://linktr.ee/himynamesteeee"}
                         target={"_blank"}
                         className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
                     >
@@ -128,7 +128,7 @@ export const Navbar = () => {
                                     ANIMATION
                                 </Link>
                                 <Link
-                                    href={"https://linktr.ee/himynamesteee"}
+                                    href={"https://linktr.ee/himynamesteeee"}
                                     target={"_blank"}
                                     className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
                                 >
