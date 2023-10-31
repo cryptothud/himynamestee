@@ -6,6 +6,10 @@ export default function Film() {
     <Layout className="pt-0 md:pt-24">
       <div className="w-[860px] max-w-full flex flex-col gap-8" data-aos="fade" data-aos-duration="500">
         <div className="flex flex-col gap-2">
+          <h1>2023 Reel</h1>
+          <video className="w-full h-full" src="https://res.cloudinary.com/de7ukpiqr/video/upload/v1698718439/MOV_7148_auxqvx.mp4" controls poster="/images/2023reel.png" />
+        </div>
+        <div className="flex flex-col gap-2">
           <h1>2022 Reel</h1>
           <video className="w-full h-full object-cover" src="https://res.cloudinary.com/de7ukpiqr/video/upload/v1697781822/Tamera%20Kissen%20Acting%20Reel%202.mov" controls poster="/images/actingreel1.png" />
         </div>
