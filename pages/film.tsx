@@ -7,7 +7,7 @@ export default function Film() {
       <div className="w-[860px] max-w-full flex flex-col gap-8" data-aos="fade" data-aos-duration="500">
         <div className="flex flex-col gap-2">
           <h1>2023 Reel</h1>
-          <video className="w-full h-full" src="https://res.cloudinary.com/de7ukpiqr/video/upload/v1698718439/MOV_7148_auxqvx.mp4" controls poster="/images/2023reel.png" />
+          <video className="w-full h-full object-fill aspect-[16/8]" src="https://res.cloudinary.com/de7ukpiqr/video/upload/v1698718439/MOV_7148_auxqvx.mp4" controls poster="/images/2023reel.png" />
         </div>
         <div className="flex flex-col gap-2">
           <h1>2022 Reel</h1>
