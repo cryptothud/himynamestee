@@ -84,6 +84,26 @@ export const Navbar = () => {
                     >
                         EXCLUSIVE CONTENT
                     </Link>
+                    <Link
+                        href={"https://amazon.com/shop/himynamesteee"}
+                        target={"_blank"}
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                    >
+                        AMAZON STORE
+                    </Link>
+                    <Link
+                        href={"https://depop.com/himynamesteex2"}
+                        target={"_blank"}
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                    >
+                        DEPOP
+                    </Link>
+                    <Link
+                        href={"/cameo"}
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                    >
+                        PERSONALIZED VIDEOS
+                    </Link>
                 </div>
             </div>
         )
@@ -108,7 +128,7 @@ export const Navbar = () => {
             <div className="md:hidden flex items-center justify-center relative z-[1001] duration-300 hover:opacity-40">
                 <Hamburger toggled={dropdown} toggle={setDropdown} size={25} color={"black"} />
             </div>
-            <div className="md:hidden flex flex-col justify-center items-center gap-2 duration-300 w-screen h-screen bg-white fixed top-0 left-0 z-[1000]" style={dropdown ? { opacity: 1, pointerEvents: "all" } : { opacity: 0, pointerEvents: "none" }}>
+            <div className="md:hidden flex flex-col justify-center items-center gap-1 duration-300 w-screen h-screen bg-white fixed top-0 left-0 z-[1000]" style={dropdown ? { opacity: 1, pointerEvents: "all" } : { opacity: 0, pointerEvents: "none" }}>
                 {links?.map((o) => {
                     if (o.name === "MORE") {
                         return (
@@ -116,23 +136,43 @@ export const Navbar = () => {
                                 <Link
                                     href={"https://www.youtube.com/playlist?list=PLSk_5DV97tLSauZENgkUysa5c827v2ybw"}
                                     target={"_blank"}
-                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                                 >
                                     HOT TEE
                                 </Link>
                                 <Link
                                     href={"https://www.youtube.com/watch?v=IzvdRartlKM&list=PLSk_5DV97tLTjEBsR6zkqfeDvIU2QcgSj"}
                                     target={"_blank"}
-                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                                 >
                                     ANIMATION
                                 </Link>
                                 <Link
                                     href={"https://linktr.ee/himynamesteeee"}
                                     target={"_blank"}
-                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                                 >
                                     EXCLUSIVE CONTENT
+                                </Link>
+                                <Link
+                                    href={"https://amazon.com/shop/himynamesteee"}
+                                    target={"_blank"}
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
+                                >
+                                    AMAZON STORE
+                                </Link>
+                                <Link
+                                    href={"https://depop.com/himynamesteex2"}
+                                    target={"_blank"}
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
+                                >
+                                    DEPOP
+                                </Link>
+                                <Link
+                                    href={"/cameo"}
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
+                                >
+                                    PERSONALIZED VIDEOS
                                 </Link>
                             </>
                         )
@@ -142,7 +182,7 @@ export const Navbar = () => {
                                 key={o.name}
                                 href={o.link}
                                 target={o.link.includes("https://") ? "_blank" : "_self"}
-                                className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base w-full text-center py-2"
+                                className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] w-full text-center py-2"
                                 onClick={() => setDropdown(false)}
                             >
                                 {o.name}

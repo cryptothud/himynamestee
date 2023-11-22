@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <AnimatePresence mode="wait" initial={false}>
             <Component {...pageProps} />
           </AnimatePresence>
-          <div className="flex flex-col gap-5 py-32 items-center">
+          <div className="flex flex-col gap-5 py-32 items-center relative z-10">
             <h1 className="font-medium text-sm tracking-[0.25em]">FOLLOW HIMYNAMESTEE</h1>
             <Socials size={50} gap={0} color={"#000000"} />
           </div>
