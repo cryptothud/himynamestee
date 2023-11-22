@@ -22,7 +22,7 @@ export default function Film() {
               <li>{`Text Me`}</li>
               <li>{`Talk to Me`}</li>
             </ol>
-            <a href="https://www.youtube.com/playlist?list=PLSk_5DV97tLR8hf59O0pSVCN93Aly2rJO" target="_blank">
+            <a href="https://v.cameo.com/e/SwUWqzKfTEb" target="_blank">
               <button className="px-12 sm:px-16 py-3 rounded-2xl bg-[#F8005B] hover:bg-[#F8005B99] text-white font-semibold tracking-[0.25em] uppercase">Get Yours Now</button>
             </a>
           </div>
