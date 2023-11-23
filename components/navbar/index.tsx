@@ -34,7 +34,7 @@ export const Navbar = () => {
         },
         {
             name: "MORE",
-            link: ""
+            link: "https://linktr.ee/himynamesteeee"
         }
     ]
 
@@ -48,8 +48,8 @@ export const Navbar = () => {
                 onMouseLeave={() => setHover(false)}
             >
                 <Link
-                    href={o?.name === "MORE" ? "" : o.link}
-                    target={o?.name === "MORE" ? "" : o.link.includes("https://") ? "_blank" : "_self"}
+                    href={o.link}
+                    target={o.link.includes("https://") ? "_blank" : "_self"}
                     className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 flex justify-center items-center"
                 >
                     {o.name}
@@ -66,25 +66,32 @@ export const Navbar = () => {
                     <Link
                         href={"https://www.youtube.com/playlist?list=PLSk_5DV97tLSauZENgkUysa5c827v2ybw"}
                         target={"_blank"}
-                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                     >
                         HOT TEE
                     </Link>
                     <Link
                         href={"https://www.youtube.com/watch?v=IzvdRartlKM&list=PLSk_5DV97tLTjEBsR6zkqfeDvIU2QcgSj"}
                         target={"_blank"}
-                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                     >
                         ANIMATION
                     </Link>
                     <Link
                         href={"https://linktr.ee/himynamesteeee"}
                         target={"_blank"}
-                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                     >
                         EXCLUSIVE CONTENT
                     </Link>
                     <Link
+                        href={"https://linktr.ee/himynamesteeee"}
+                        target={"_blank"}
+                        className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
+                    >
+                        MORE...
+                    </Link>
+                    {/* <Link
                         href={"https://amazon.com/shop/himynamesteee"}
                         target={"_blank"}
                         className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
@@ -103,7 +110,7 @@ export const Navbar = () => {
                         className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-base py-2 mx-2 whitespace-nowrap text-center"
                     >
                         PERSONALIZED VIDEOS
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         )
@@ -155,6 +162,13 @@ export const Navbar = () => {
                                     EXCLUSIVE CONTENT
                                 </Link>
                                 <Link
+                                    href={"https://linktr.ee/himynamesteeee"}
+                                    target={"_blank"}
+                                    className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
+                                >
+                                    MORE...
+                                </Link>
+                                {/* <Link
                                     href={"https://amazon.com/shop/himynamesteee"}
                                     target={"_blank"}
                                     className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
@@ -173,7 +187,7 @@ export const Navbar = () => {
                                     className="hover:opacity-40 duration-300 tracking-[0.15em] font-semibold text-[14px] py-2 mx-[5px] whitespace-nowrap text-center"
                                 >
                                     PERSONALIZED VIDEOS
-                                </Link>
+                                </Link> */}
                             </>
                         )
                     } else {
