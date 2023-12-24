@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="twitter:description" content={"himynamestee"} />
         <meta property="twitter:image" content={"https://i.ibb.co/9tST9cG/New-Project-12-1.png"} />
       </Head>
-      <IKContext urlEndpoint="https://ik.imagekit.io/2i0djxrnp/extra">
+      <IKContext urlEndpoint="https://ik.imagekit.io/cb6dstsp5/extra">
         <div className="flex flex-col w-screen min-h-screen">
           <Navbar />
           <AnimatePresence mode="wait" initial={false}>
